@@ -5,7 +5,7 @@ Version 1.1 du 25/05/2020 (Voir l'historique à la fin du fichier).
 
 DESCRIPTION :
 =============
-CePC+.cmd est un utilitaire qui permet de renomme l'icône "Ce PC" (ou "Ordinateur" pour Windows 7)
+CePC+.cmd est un utilitaire qui permet de renommer l'icône "Ce PC" (ou "Ordinateur" pour Windows 7)
 en "Ce PC (NomDuPC)", même si l'ordinateur est renommé le nom est actualisé automatiquement.
 Ce batch nécessite l'utilisation de SetACL.exe (https://helgeklein.com/download/) à placer dans le
 sous dossier \Res et en renommant les fichiers tel que : SetACLx64.exe et SetACLx86.exe.
