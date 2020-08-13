@@ -1,1 +1,1 @@
-Ouvrez le fichier README.md.
+Ouvrez le fichier README.md pour lire les informations.

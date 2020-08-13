@@ -1,9 +1,12 @@
-:: CePC+.cmd Cr้er par Thierry Lemarchand
-:: Version 1.1 du 25/05/2020
-:: Lire le fichier LisezMoi.txt pour plus d'informations.
+:: CePC+.cmd Cr้er par Tlem
+:: Version 1.2 du 13/08/2020
+:: Lire le fichier README.md pour plus d'informations.
 
 @Echo Off
 Cls
+
+:: Version :
+Set Version=1.2
 
 ::Get Admin Right
 Net.exe session 1>NUL 2>NUL || (Powershell start-process """%~dpnx0""" -verb RunAs & Exit /b 1)
@@ -29,6 +32,13 @@ If Not Exist %SetAcl% (
 
 : Menu
 Cls
+Color 0F
+Echo                         ษออออออออออออออออออออออออออออออป
+Echo                         บ                              บ
+Echo                         บ          CePC+ v%version%          บ
+Echo                         บ                              บ
+Echo                         ศออออออออออออออออออออออออออออออผ
+Echo.
 Echo.
 Echo Quelle action dsirez-vous effectuer ?
 Echo.
@@ -38,8 +48,7 @@ Echo      2 - Remettre la valeur d'origine.
 Echo.
 Echo      3 - Quitter
 Echo.
-Echo.
-Set /P Var=Quel est votre choix (1 ou 2) ?
+Set /P Var=Entrez votre choix (1, 2 ou 3) ?
 If "%Var%"=="1" Goto :NewValue
 If "%Var%"=="2" Goto :OldValue
 If "%Var%"=="3" Exit
@@ -70,8 +79,7 @@ If %ERRORLEVEL%==0 (
 	Echo.
 	Echo Echec de la modification ^(voir le message d'erreur ci-dessus^).
 )
-Echo Appuyez sur une touche pour terminer.
-Pause>Nul & Exit
+Goto :EOF
 
 :OldValue
 Cls
@@ -93,5 +101,8 @@ If %ERRORLEVEL%==0 (
 	Echo Appuyez sur une touche pour quitter.
 	Pause>Nul & Exit
 )
+Goto :EOF
+
+:EOF
 Echo Appuyez sur une touche pour terminer.
 Pause>Nul & Exit
