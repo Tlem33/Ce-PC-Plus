@@ -39,8 +39,9 @@ Lisez attentivement la licence GPL pour plus de détails (https://fr.wikipedia.o
 	- Ajout de la modification de la clé de registre dans HKEY_CURRENT_USER
 
 13/08/2020 - Verion 1.2
-	- Ajout de l'affichage de la version.
-	- Ajout du fichier README.md (pour Github) qui remplace le fichier LisezMoi.txt.
-	- Correction typographique et ré-agencement du texte de ce fichier (pour Github).
-	- Corrections sur le choix des options (manquait le choix 3).
-	- Regroupement du code de fin pour les deux fonctions.
+	- Ajout de l'affichage de la version.  
+	- Ajout du fichier README.md (pour Github) qui remplace le fichier LisezMoi.txt.  
+	- Correction typographique et ré-agencement du texte de ce fichier (pour Github).  
+	- Corrections sur le choix des options (manquait le choix 3).  
+	- Regroupement du code de fin pour les deux fonctions.  
+	- Ajout d'un double espace a la fin de chaque ligne de ce paragraphe pour le retour de ligne en Markdown (pour Github).  
