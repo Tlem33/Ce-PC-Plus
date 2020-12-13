@@ -1,12 +1,13 @@
-:: CePC+.cmd Créer par Tlem
-:: Version 1.2 du 13/08/2020
-:: Lire le fichier README.md pour plus d'informations.
+:: CePC+.cmd Créer par Tlem33
+:: Version 1.3 du 13/12/2020
+:: https://github.com/Tlem33/CePC-Plus  
+::
 
 @Echo Off
 Cls
 
 :: Version :
-Set Version=1.2
+Set Version=1.3
 
 ::Get Admin Right
 Net.exe session 1>NUL 2>NUL || (Powershell start-process """%~dpnx0""" -verb RunAs & Exit /b 1)
@@ -14,9 +15,9 @@ Net.exe session 1>NUL 2>NUL || (Powershell start-process """%~dpnx0""" -verb Run
 
 :CheckOS
 IF EXIST "%PROGRAMFILES(X86)%" (
-	Set SetAcl="%~DP0Res\SetACLx64.exe"
+	Set SetAcl="%~DP0bin\SetACLx64.exe"
 ) ELSE (
-	Set SetAcl="%~DP0Res\SetACLx86.exe"
+	Set SetAcl="%~DP0bin\SetACLx86.exe"
 )
 ::Check If SetACL.exe exist
 If Not Exist %SetAcl% (
@@ -44,7 +45,7 @@ Echo Quelle action d‚sirez-vous effectuer ?
 Echo.
 Echo      1 - Renommer "Ce PC" en "Ce PC (NomduPC)"
 Echo.
-Echo      2 - Remettre la valeur d'origine.
+Echo      2 - Remettre la valeur d'origine
 Echo.
 Echo      3 - Quitter
 Echo.
