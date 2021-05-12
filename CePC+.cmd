@@ -1,4 +1,8 @@
-:: CePC+.cmd Créer par Tlem33
+:: CePC+.cmd Créé par Tlem33
+:: Ce batch permet d'afficher le nom de la machine sur l'icône "Ce PC".
+::
+:: Lire le fichier README.md pour plus d'informations.
+::
 :: Version 1.3 du 13/12/2020
 :: https://github.com/Tlem33/CePC-Plus  
 ::
