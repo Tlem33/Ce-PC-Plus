@@ -3,7 +3,7 @@
 Version 1.3 du 13/12/2020 - Par Tlem33  
 https://github.com/Tlem33/CePC-Plus  
 
-***
+---
 
 ## DESCRIPTION :
 
@@ -20,6 +20,7 @@ et SetACLx86.exe pour la version 32 bits.
 	         \LisezMoi.md
 	         \README.md
 
+---
 
 ## UTILISATION de CePC+.cmd :
 
@@ -32,22 +33,20 @@ Lancez simplement CePC+.cmd et choisissez l'action à réaliser :
 **ATTENTION** : Ce batch nécessite une élévation de droits pour accèder à la base de registre.  
 Si vous n'avez pas les droits administrateur, il ne fonctionnera pas.
         
-*** 
+--- 
 
 ## SYSTEME(S) :
 
-Testé sous :
+     Windows 7  
+     Windows 10  
 
-        - Windows 7  
-        - Windows 10  
-
-***
+---
 
 ## LICENCE :
 
 Licence [MIT](https://fr.wikipedia.org/wiki/Licence_MIT)  
 
-Droit d'auteur (c) 2020 Tlem33  
+Droit d'auteur (c) 2021 Tlem33  
 
 Une autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel  
 et des fichiers de documentation associés (le «logiciel»), afin de traiter le logiciel sans restriction,  
@@ -93,3 +92,5 @@ INDIRECT AVEC L’UTILISATION DE CE LOGICIEL.
 		- Fichier LisezMoi.txt renommé en LisezMoi.md.  
 		- Mise à jour du nom du dépot => Ce-PC-Plus => CePC-Plus.
 	    - Modification du chemin vers les binaires (\bin au lieu de \Res). 
+
+---
